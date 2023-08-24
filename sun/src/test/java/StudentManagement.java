@@ -14,6 +14,10 @@ public class StudentManagement {
         log.info("学号: {}, 姓名: {}, 性别: {}", student.getId(), student.getName(), student.getSex());
     }
 
+    public static void deleteStudent() {
+
+    }
+
     public static void main(String[] args) {
         String[][] students = {{"1001", "张三", "男"}, {"1002", "李四", "女"}, {"1003", "王五", "男"}};
         log.info("添加学员信息:");
